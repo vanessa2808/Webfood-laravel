@@ -105,3 +105,109 @@
 [Tue Dec 03 02:51:35.118936 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
 [Tue Dec 03 03:10:02.538332 2019] [mpm_prefork:notice] [pid 35] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Tue Dec 03 03:10:02.539898 2019] [core:notice] [pid 35] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 03 07:15:32.050934 2019] [core:warn] [pid 38] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 03 07:15:32.060902 2019] [mpm_prefork:notice] [pid 38] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 03 07:15:32.061288 2019] [core:notice] [pid 38] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 03 09:19:56.892133 2019] [core:warn] [pid 36] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 03 09:19:56.902625 2019] [mpm_prefork:notice] [pid 36] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 03 09:19:56.903183 2019] [core:notice] [pid 36] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 03 13:08:02.146230 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 03 13:08:02.156900 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 03 13:08:02.157358 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 04 01:20:49.241718 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 04 01:20:49.252274 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 04 01:20:49.253285 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 04 01:56:16.134349 2019] [autoindex:error] [pid 68] [client 172.19.0.1:44808] AH01276: Cannot serve directory /var/www/html/public/admin/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Wed Dec 04 01:56:52.897604 2019] [autoindex:error] [pid 56] [client 172.19.0.1:44816] AH01276: Cannot serve directory /var/www/html/public/admin/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Thu Dec 05 01:25:43.398615 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Dec 05 01:25:43.399444 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Dec 05 03:42:40.870280 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 05 03:42:40.873240 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Dec 05 03:42:40.873909 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Dec 05 07:18:21.579632 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Dec 05 07:18:21.580569 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 06 01:05:26.495484 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 06 01:05:26.508523 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 06 01:05:26.509004 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 06 03:08:33.281152 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 06 03:08:33.284820 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 06 03:08:33.285431 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 06 07:20:45.395692 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 06 07:20:45.396683 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 09 01:03:28.142170 2019] [mpm_prefork:notice] [pid 35] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Dec 09 01:03:28.143646 2019] [core:notice] [pid 35] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 09 07:06:45.147555 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 09 07:06:45.158280 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Dec 09 07:06:45.158870 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 00:59:18.343422 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 00:59:18.354831 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 00:59:18.355241 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 01:25:26.904944 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 01:25:26.910618 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 01:25:26.911762 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 03:34:16.083925 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 03:34:16.087640 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 03:34:16.088058 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 07:17:33.784121 2019] [mpm_prefork:notice] [pid 35] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 07:17:33.785646 2019] [core:notice] [pid 35] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 08:17:39.764191 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 08:17:39.768256 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 08:17:39.768759 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 08:21:37.613266 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 08:21:37.616037 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 10 08:21:37.616606 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 10 08:50:24.837166 2019] [php7:error] [pid 54] [client 172.20.0.1:38620] PHP Fatal error:  Cannot redeclare App\\User::$fillable in /var/www/html/app/Models/User.php on line 24, referer: http://webfood.com/admin/blog/list_blog
+[Wed Dec 11 01:14:50.727506 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 11 01:14:50.740938 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 11 01:14:50.741372 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 11 01:51:12.428800 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 11 01:51:12.430047 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 11 02:18:27.592478 2019] [php7:error] [pid 41] [client 172.19.0.1:54590] PHP Fatal error:  Method Illuminate\\View\\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: listUsers (View: /var/www/html/resources/views/admin/users/list_users.blade.php) in /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 536, referer: http://webfood.com/login
+[Wed Dec 11 07:11:38.441001 2019] [mpm_prefork:notice] [pid 35] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 11 07:11:38.442402 2019] [core:notice] [pid 35] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Dec 12 01:23:07.143933 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Dec 12 01:23:07.145099 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Dec 12 01:31:54.717158 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Dec 12 01:31:54.718478 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 13 01:30:00.323414 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 13 01:30:00.324655 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Dec 14 01:49:10.032878 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Dec 14 01:49:10.033808 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Dec 14 14:45:37.983720 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Dec 14 14:45:37.985144 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Dec 15 01:34:49.055665 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Dec 15 01:34:49.056858 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Dec 15 10:59:09.089730 2019] [core:warn] [pid 36] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 15 10:59:09.101278 2019] [mpm_prefork:notice] [pid 36] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Dec 15 10:59:09.101728 2019] [core:notice] [pid 36] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 16 07:00:11.484269 2019] [mpm_prefork:notice] [pid 40] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Dec 16 07:00:11.485555 2019] [core:notice] [pid 40] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 17 05:14:11.208000 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 05:14:11.216807 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 17 05:14:11.217198 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 17 08:31:28.505147 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 08:31:28.508462 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 17 08:31:28.508755 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 17 08:32:56.963300 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 08:32:56.966131 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 17 08:32:56.966477 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 17 15:11:38.773418 2019] [core:warn] [pid 52] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 15:11:38.783062 2019] [mpm_prefork:notice] [pid 52] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 17 15:11:38.783931 2019] [core:notice] [pid 52] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 01:04:21.475686 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 01:04:21.480704 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 01:04:21.481147 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 01:35:56.520972 2019] [core:warn] [pid 51] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 01:35:56.524055 2019] [mpm_prefork:notice] [pid 51] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 01:35:56.524500 2019] [core:notice] [pid 51] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 01:46:38.023941 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 01:46:38.027388 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 01:46:38.027952 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 02:00:53.549800 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 02:00:53.553282 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 02:00:53.553636 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 02:09:49.813423 2019] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 02:09:49.814861 2019] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 02:22:13.118977 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 02:22:13.121909 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 02:22:13.122256 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'

@@ -21,7 +21,8 @@ RUN a2enmod headers
 RUN service apache2 restart
 
 # Install git
-RUN apt-get install git -y
+RUN apt-get install -y git
+
 
 # Create User
 ARG APP_USER=demo
