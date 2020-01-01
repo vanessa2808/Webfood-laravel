@@ -211,3 +211,34 @@
 [Wed Dec 18 02:22:13.118977 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
 [Wed Dec 18 02:22:13.121909 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Wed Dec 18 02:22:13.122256 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 03:32:50.525159 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 03:32:50.528717 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 03:32:50.529250 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 07:41:14.892863 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 07:41:14.901065 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 07:41:14.901707 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Dec 18 09:49:17.492091 2019] [core:warn] [pid 37] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 18 09:49:17.501614 2019] [mpm_prefork:notice] [pid 37] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Dec 18 09:49:17.502135 2019] [core:notice] [pid 37] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 20 01:13:12.786070 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 20 01:13:12.796914 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 20 01:13:12.797427 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Dec 20 01:43:33.067121 2019] [php7:error] [pid 70] [client 172.20.0.1:38564] PHP Fatal error:  Class 'App\\Http\\Controllers\\admin\\Controller' not found in /var/www/html/app/Http/Controllers/admin/HeaderController.php on line 7, referer: http://webfood.com/admin/food/list_food
+[Fri Dec 20 07:44:31.163904 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 20 07:44:31.175614 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Dec 20 07:44:31.176091 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 23 00:54:50.890987 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 23 00:54:50.896192 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Dec 23 00:54:50.896768 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 23 01:54:58.825722 2019] [php7:error] [pid 68] [client 172.18.0.1:46644] PHP Fatal error:  Class 'App\\Http\\Controllers\\admin\\Controller' not found in /var/www/html/app/Http/Controllers/admin/MainController.php on line 7, referer: http://webfood.com/admin/header/list_header
+[Mon Dec 23 01:55:31.333001 2019] [php7:error] [pid 58] [client 172.18.0.1:46648] PHP Fatal error:  Class 'App\\Http\\Controllers\\admin\\Controller' not found in /var/www/html/app/Http/Controllers/admin/MainController.php on line 7, referer: http://webfood.com/admin/header/list_header
+[Sun Dec 29 08:11:36.455935 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 29 08:11:36.459745 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Dec 29 08:11:36.460235 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 31 02:02:27.243487 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 31 02:02:27.247658 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Dec 31 02:02:27.248201 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Dec 31 07:37:19.876015 2019] [php7:error] [pid 1042] [client 172.20.0.1:42110] PHP Fatal error:  Class 'App\\Http\\Controllers\\admin\\Controller' not found in /var/www/html/app/Http/Controllers/Admin/HomeController.php on line 7
+[Wed Jan 01 01:17:56.001357 2020] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 01 01:17:56.012651 2020] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 01 01:17:56.013330 2020] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'

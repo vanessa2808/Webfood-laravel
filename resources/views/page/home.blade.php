@@ -1,6 +1,8 @@
 @section('content')
     @extends('page.layouts.master')
-    <div class="slider_area">
+    @foreach($listHeader as $key => $header)
+
+        <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -8,7 +10,7 @@
                         <div class="slider_text text-center">
                             <div class="text">
                                 <h3>
-                                    Chicken dish with per boiled egg
+                                        {{$header->title}}
                                 </h3>
                             </div>
                         </div>
@@ -17,44 +19,11 @@
             </div>
         </div>
     </div>
+    @endforeach
 
     <div class="recepie_area">
     <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-                <div class="single_recepie text-center">
-                    <div class="recepie_thumb">
-                        <img src="page/img/recepie/recpie_1.png" alt="">
-                    </div>
-                    <h3>Egg Manchurian</h3>
-                    <span>Appetizer</span>
-                    <p>Time Needs: 30 Mins</p>
-                    <a href="#" class="line_btn">View Full Recipe</a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-                <div class="single_recepie text-center">
-                    <div class="recepie_thumb">
-                        <img src="page/img/recepie/recpie_2.png" alt="">
-                    </div>
-                    <h3>Pure Vegetable Bowl</h3>
-                    <span>Appetizer</span>
-                    <p>Time Needs: 30 Mins</p>
-                    <a href="#" class="line_btn">View Full Recipe</a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-                <div class="single_recepie text-center">
-                    <div class="recepie_thumb">
-                        <img src="page/img/recepie/recpie_3.png" alt="">
-                    </div>
-                    <h3>Egg Masala Ramen</h3>
-                    <span>Appetizer</span>
-                    <p>Time Needs: 30 Mins</p>
-                    <a href="#" class="line_btn">View Full Recipe</a>
-                </div>
-            </div>
-        </div>
+        @include('page.recipe_listFood');
     </div>
 </div>
 <!-- /recepie_area_start  -->
