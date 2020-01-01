@@ -13,7 +13,8 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "patricktalmadge/bootstrapper": "^5.11",
-        "unisharp/laravel-ckeditor": "^4.7"
+        "unisharp/laravel-ckeditor": "^4.7",
+        "phpro/grumphp": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
