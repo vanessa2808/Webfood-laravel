@@ -21,9 +21,7 @@
     </div>
     @endforeach
 
-    <div class="recepie_area">
-    <div class="container">
-        @include('page.recipe_listFood');
+
     </div>
 </div>
 <!-- /recepie_area_start  -->
