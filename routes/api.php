@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('food', 'FoodController@index');
+Route::get('/food', function() {
+    $food = DB::table('food')->get();
+    return $food;
+});
