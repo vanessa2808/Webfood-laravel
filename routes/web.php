@@ -54,22 +54,22 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'verified', 'middleware' =
     Route::get('/admin', 'HomeController@dashboard')->name('dashboard');
 
     Route::group(['prefix' => '/admin/product_categories'], function () {
-        Route::get('/add_categories', ['as' => 'admin.product_categories.add_categories', 'uses' => 'CategoryController@getAdd']);
-        Route::post('/add_categories', ['as' => 'admin.product_categories.add_categories', 'uses' => 'CategoryController@postAdd']);
-        Route::get('/list_categories', ['as' => 'admin.product_categories.list_categories', 'uses' => 'CategoryController@index']);
+        Route::get('/add_categories', ['as' => 'admin.product_categories.add_categories', 'uses' => 'admin\CategoryController@getAdd']);
+        Route::post('/add_categories', ['as' => 'admin.product_categories.add_categories', 'uses' => 'admin\CategoryController@postAdd']);
+        Route::get('/list_categories', ['as' => 'admin.product_categories.list_categories', 'uses' => 'admin\CategoryController@index']);
 
-        Route::get('edit_categories/{id}', ['as' => 'admin.product_categories.edit_categories', 'uses' => 'CategoryController@getEdit']);
-        Route::post('edit_categories/{id}', ['as' => 'admin.product_categories.edit_categories', 'uses' => 'CategoryController@postEdit']);
-        Route::get('delete/{id}', ['as' => 'admin.product_categories.delete', 'uses' => 'CategoryController@delete']);
+        Route::get('edit_categories/{id}', ['as' => 'admin.product_categories.edit_categories', 'uses' => 'admin\CategoryController@getEdit']);
+        Route::post('edit_categories/{id}', ['as' => 'admin.product_categories.edit_categories', 'uses' => 'admin\CategoryController@postEdit']);
+        Route::get('delete/{id}', ['as' => 'admin.product_categories.delete', 'uses' => 'admin\CategoryController@delete']);
     });
     Route::group(['prefix' => '/admin/users'], function () {
-        Route::get('/add_users', ['as' => 'admin.users.add_users', 'uses' => 'UserController@getAdd']);
-        Route::post('/add_users', ['as' => 'admin.users.add_users', 'uses' => 'UserController@postAdd']);
-        Route::get('/list_users', ['as' => 'admin.users.list_users', 'uses' => 'UserController@index']);
+        Route::get('/add_users', ['as' => 'admin.users.add_users', 'uses' => 'admin\UserController@getAdd']);
+        Route::post('/add_users', ['as' => 'admin.users.add_users', 'uses' => 'admin\UserController@postAdd']);
+        Route::get('/list_users', ['as' => 'admin.users.list_users', 'uses' => 'admin\UserController@index']);
 
-        Route::get('edit_users/{id}', ['as' => 'admin.users.edit_users', 'uses' => 'UserController@getEdit']);
-        Route::post('edit_users/{id}', ['as' => 'admin.users.edit_users', 'uses' => 'UserController@postEdit']);
-        Route::get('delete/{id}', ['as' => 'admin.users.delete', 'uses' => 'UserController@delete']);
+        Route::get('edit_users/{id}', ['as' => 'admin.users.edit_users', 'uses' => 'admin\UserController@getEdit']);
+        Route::post('edit_users/{id}', ['as' => 'admin.users.edit_users', 'uses' => 'admin\UserController@postEdit']);
+        Route::get('delete/{id}', ['as' => 'admin.users.delete', 'uses' => 'admin\UserController@delete']);
     });
     Route::group(['prefix' => '/admin/blog'], function () {
         Route::get('/add_blog', ['as' => 'admin.blog.add_blog', 'uses' => 'BlogController@getAddBlog']);
