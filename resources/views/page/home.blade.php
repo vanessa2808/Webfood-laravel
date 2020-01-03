@@ -1,8 +1,7 @@
 @section('content')
     @extends('page.layouts.master')
-    @foreach($listHeader as $key => $header)
 
-        <div class="slider_area">
+    <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -10,7 +9,7 @@
                         <div class="slider_text text-center">
                             <div class="text">
                                 <h3>
-                                        {{$header->title}}
+                                    Chicken dish with per boiled egg
                                 </h3>
                             </div>
                         </div>
@@ -19,11 +18,6 @@
             </div>
         </div>
     </div>
-    @endforeach
-
-
-    </div>
-</div>
 <!-- /recepie_area_start  -->
 
 <!-- recepie_videos   -->
