@@ -9,9 +9,7 @@
                         <div class="slider_text text-center">
                             <div class="text">
                                 <h3>
-                                    @foreach($listHeader as $key as $header)
-                                        {{$header->title}}
-                                    @endforeach
+                                    we bring our healthy food
                                 </h3>
                             </div>
                         </div>
