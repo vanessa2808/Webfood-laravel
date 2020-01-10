@@ -248,3 +248,80 @@
 [Thu Jan 02 03:18:30.212351 2020] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
 [Thu Jan 02 03:18:30.226739 2020] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Thu Jan 02 03:18:30.227309 2020] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jan 03 03:11:29.327931 2020] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 03 03:11:29.339794 2020] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Jan 03 03:11:29.340410 2020] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jan 03 03:13:02.891256 2020] [php7:notice] [pid 55] [client 172.20.0.1:46030] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:13:09.846614 2020] [php7:notice] [pid 57] [client 172.20.0.1:46032] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/
+[Fri Jan 03 03:13:10.200861 2020] [php7:notice] [pid 57] [client 172.20.0.1:46032] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/
+[Fri Jan 03 03:13:12.476524 2020] [php7:notice] [pid 58] [client 172.20.0.1:46034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Fri Jan 03 03:13:13.156184 2020] [php7:notice] [pid 58] [client 172.20.0.1:46034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Fri Jan 03 03:13:17.114475 2020] [php7:notice] [pid 58] [client 172.20.0.1:46034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:13:17.679176 2020] [php7:notice] [pid 57] [client 172.20.0.1:46032] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin
+[Fri Jan 03 03:13:19.462056 2020] [php7:notice] [pid 58] [client 172.20.0.1:46034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin
+[Fri Jan 03 03:13:19.925121 2020] [php7:notice] [pid 64] [client 172.20.0.1:46046] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/add_food
+[Fri Jan 03 03:13:20.063393 2020] [php7:notice] [pid 58] [client 172.20.0.1:46034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/add_food
+[Fri Jan 03 03:13:22.861374 2020] [php7:notice] [pid 68] [client 172.20.0.1:46056] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/add_food
+[Fri Jan 03 03:13:23.515333 2020] [php7:notice] [pid 68] [client 172.20.0.1:46056] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:18:56.300865 2020] [php7:notice] [pid 56] [client 172.20.0.1:46066] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:18:56.759931 2020] [php7:notice] [pid 56] [client 172.20.0.1:46066] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:19:08.380985 2020] [php7:notice] [pid 55] [client 172.20.0.1:46072] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:19:37.369921 2020] [php7:notice] [pid 64] [client 172.20.0.1:46078] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:19:54.553888 2020] [php7:notice] [pid 68] [client 172.20.0.1:46082] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:21:29.274722 2020] [php7:notice] [pid 67] [client 172.20.0.1:46086] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:31:41.244313 2020] [php7:notice] [pid 56] [client 172.20.0.1:46092] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:32:50.172692 2020] [php7:notice] [pid 55] [client 172.20.0.1:46096] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:32:59.099571 2020] [php7:notice] [pid 64] [client 172.20.0.1:46102] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:33:00.552548 2020] [php7:notice] [pid 58] [client 172.20.0.1:46100] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:33:01.786812 2020] [php7:notice] [pid 68] [client 172.20.0.1:46104] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:33:13.712295 2020] [php7:notice] [pid 67] [client 172.20.0.1:46110] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/food/list_food
+[Fri Jan 03 03:33:18.719677 2020] [php7:notice] [pid 66] [client 172.20.0.1:46108] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:33:30.020753 2020] [php7:notice] [pid 59] [client 172.20.0.1:46116] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:33:30.357122 2020] [php7:notice] [pid 59] [client 172.20.0.1:46116] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:33:33.370980 2020] [php7:notice] [pid 59] [client 172.20.0.1:46116] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Fri Jan 03 03:33:33.720540 2020] [php7:notice] [pid 59] [client 172.20.0.1:46116] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Fri Jan 03 03:33:33.996681 2020] [php7:notice] [pid 59] [client 172.20.0.1:46116] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/home
+[Fri Jan 03 03:33:36.850462 2020] [php7:notice] [pid 55] [client 172.20.0.1:46114] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:33:41.454012 2020] [php7:notice] [pid 57] [client 172.20.0.1:46122] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:33:42.806456 2020] [php7:notice] [pid 57] [client 172.20.0.1:46122] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/home
+[Fri Jan 03 03:33:42.897629 2020] [php7:notice] [pid 64] [client 172.20.0.1:46126] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/home
+[Fri Jan 03 03:33:54.559138 2020] [php7:notice] [pid 58] [client 172.20.0.1:46130] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:34:06.376590 2020] [php7:notice] [pid 65] [client 172.20.0.1:46140] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:34:18.561664 2020] [php7:notice] [pid 66] [client 172.20.0.1:46146] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:44:31.533800 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:44:33.870014 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/home
+[Fri Jan 03 03:44:36.755073 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:44:37.130830 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:44:39.759772 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:44:40.241467 2020] [php7:notice] [pid 59] [client 172.20.0.1:46150] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin
+[Fri Jan 03 03:44:45.310721 2020] [php7:notice] [pid 57] [client 172.20.0.1:46160] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin
+[Fri Jan 03 03:44:45.913215 2020] [php7:notice] [pid 57] [client 172.20.0.1:46160] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/header/add_header
+[Fri Jan 03 03:47:59.296142 2020] [php7:notice] [pid 58] [client 172.20.0.1:46166] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:48:10.246383 2020] [php7:notice] [pid 65] [client 172.20.0.1:46172] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 03:49:01.151592 2020] [php7:notice] [pid 66] [client 172.20.0.1:46178] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 07:45:45.220634 2020] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 03 07:45:45.231209 2020] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Jan 03 07:45:45.231651 2020] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jan 03 07:45:50.088340 2020] [php7:notice] [pid 55] [client 172.21.0.1:43778] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 07:45:50.788528 2020] [php7:notice] [pid 56] [client 172.21.0.1:43776] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 07:45:54.072659 2020] [php7:notice] [pid 56] [client 172.21.0.1:43776] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 07:45:58.576101 2020] [php7:notice] [pid 63] [client 172.21.0.1:43786] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/
+[Fri Jan 03 07:45:59.079076 2020] [php7:notice] [pid 58] [client 172.21.0.1:43782] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 07:52:18.818244 2020] [php7:notice] [pid 67] [client 172.21.0.1:43798] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/
+[Fri Jan 03 07:52:19.187942 2020] [php7:notice] [pid 67] [client 172.21.0.1:43798] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 07:52:21.391836 2020] [php7:notice] [pid 68] [client 172.21.0.1:43796] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 07:52:59.657441 2020] [php7:notice] [pid 70] [client 172.21.0.1:43804] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 07:57:26.397527 2020] [php7:notice] [pid 63] [client 172.21.0.1:43806] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 07:57:38.705250 2020] [php7:notice] [pid 55] [client 172.21.0.1:43812] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:00:01.630046 2020] [php7:notice] [pid 57] [client 172.21.0.1:43816] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:00:24.511050 2020] [php7:notice] [pid 68] [client 172.21.0.1:43820] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:00:35.760824 2020] [php7:notice] [pid 70] [client 172.21.0.1:43824] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:00:46.980418 2020] [php7:notice] [pid 63] [client 172.21.0.1:43828] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:01:12.155829 2020] [php7:notice] [pid 55] [client 172.21.0.1:43832] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:01:42.791478 2020] [php7:notice] [pid 57] [client 172.21.0.1:43834] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/blog
+[Fri Jan 03 08:01:46.389105 2020] [php7:notice] [pid 67] [client 172.21.0.1:43836] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 08:06:22.557962 2020] [php7:notice] [pid 69] [client 172.21.0.1:43842] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 08:06:46.729761 2020] [php7:notice] [pid 58] [client 172.21.0.1:43846] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 08:30:10.997946 2020] [php7:notice] [pid 56] [client 172.21.0.1:43850] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 08:34:45.012290 2020] [php7:notice] [pid 59] [client 172.21.0.1:43854] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Fri Jan 03 08:37:41.569157 2020] [php7:notice] [pid 67] [client 172.21.0.1:43860] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65

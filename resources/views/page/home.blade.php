@@ -9,7 +9,9 @@
                         <div class="slider_text text-center">
                             <div class="text">
                                 <h3>
-                                    Chicken dish with per boiled egg
+                                    @foreach($listHeader as $key as $header)
+                                        {{$header->title}}
+                                    @endforeach
                                 </h3>
                             </div>
                         </div>

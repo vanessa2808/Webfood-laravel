@@ -29,7 +29,7 @@ class HeaderController extends Controller
         $listHeader = $this->header->getAllHeader();
         return view('admin.header.list_header',[
            'listHeader' => $listHeader
-        ]);
+        ],compact('listHeader'));
     }
 
     public function getAddHeader()
@@ -60,7 +60,7 @@ class HeaderController extends Controller
         $idHeader = $this->header->getHeaderById($id);
         return view('admin.header.edit_header',[
            'idHeader' => $idHeader
-        ]);
+        ],compact('idHeader'));
     }
     public function postEditHeader(HeaderRequest $request, $id) {
         $idHeader =$this->header->updateHeader($request,$id);
@@ -73,7 +73,7 @@ class HeaderController extends Controller
         return redirect('/admin/header/list_header')->with([
            'message' =>'update successfully',
             'class' =>'success'
-        ]);
+        ], compact('idHeader'));
     }
 
     /**

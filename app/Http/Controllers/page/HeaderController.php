@@ -29,8 +29,10 @@ class HeaderController extends Controller
         $listHeader = $this->header->getAllHeader();
         return view('page.home',[
             'listHeader' => $listHeader
-        ]);
+        ], compact('listHeader'),['listHeader'=>$listHeader]);
     }
+
+
 
 
 
