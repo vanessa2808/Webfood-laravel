@@ -595,3 +595,11 @@
 [Mon Jan 13 03:25:12.749462 2020] [php7:notice] [pid 530] [client 172.19.0.1:33236] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/blog/list_blog
 [Mon Jan 13 03:25:12.915463 2020] [php7:notice] [pid 530] [client 172.19.0.1:33236] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/blog/list_blog
 [Mon Jan 13 03:25:14.275653 2020] [php7:notice] [pid 442] [client 172.19.0.1:33244] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Jan 13 03:28:47.061712 2020] [php7:notice] [pid 532] [client 172.19.0.1:33256] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Jan 13 03:31:39.754093 2020] [php7:notice] [pid 63] [client 172.19.0.1:33268] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/blog/list_blog
+[Mon Jan 13 03:31:40.376638 2020] [php7:notice] [pid 63] [client 172.19.0.1:33268] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/header/add_header
+[Mon Jan 13 03:31:40.683667 2020] [php7:notice] [pid 621] [client 172.19.0.1:33266] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/header/add_header
+[Mon Jan 13 03:31:43.399319 2020] [php7:notice] [pid 530] [client 172.19.0.1:33274] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/header/add_header
+[Mon Jan 13 03:31:44.028123 2020] [php7:notice] [pid 530] [client 172.19.0.1:33274] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/header/list_header
+[Mon Jan 13 03:33:29.802528 2020] [php7:notice] [pid 622] [client 172.19.0.1:33280] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Jan 13 03:33:33.016579 2020] [php7:notice] [pid 622] [client 172.19.0.1:33280] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65

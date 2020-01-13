@@ -82,26 +82,57 @@
         </div>
     </div>
 
+{{--    <div class="dish_area">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-xl-12">--}}
+{{--                    <div class="dish_wrap d-flex">--}}
+
+{{--                        <div class="single_dish text-center">--}}
+{{--                            @foreach($blog as $bl)--}}
+
+
+{{--                            <div class="thumb">--}}
+
+{{--                                <img src="{{asset($bl->image)}}" alt="">--}}
+{{--                            </div>--}}
+{{--                            <h3>{{$bl->title}}</h3>--}}
+{{--                            <p> {{$bl->description}}</p>--}}
+
+{{--                        </div>--}}
+{{--                        @endforeach--}}
+
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class="dish_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="dish_wrap d-flex">
-
                         <div class="single_dish text-center">
-                            @foreach($blog as $bl)
-
-
                             <div class="thumb">
-
-                                <img src="{{asset($bl->image)}}" alt="">
+                                <img src="page/img/recepie/recpie_4.png" alt="">
                             </div>
-                            <h3>{{$bl->title}}</h3>
-                            <p> {{$bl->description}}</p>
-
+                            <h3>Birthday Catering</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        @endforeach
-
+                        <div class="single_dish text-center">
+                            <div class="thumb">
+                                <img src="page/img/recepie/recpie_5.png" alt="">
+                            </div>
+                            <h3>Birthday Catering</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="single_dish text-center">
+                            <div class="thumb">
+                                <img src="page/img/recepie/recpie_6.png" alt="">
+                            </div>
+                            <h3>Birthday Catering</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
                     </div>
                 </div>
             </div>
