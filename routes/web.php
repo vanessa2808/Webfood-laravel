@@ -11,15 +11,15 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/','page\FrontEndController@getHomePage', function () {
     return view('welcome');
 });
-Route::get('/home' ,function () {
+Route::get('/home', 'page\FrontEndController@getHomePage' ,function () {
     return view('welcome');
 });
 
 
-Route::get('/about', function () {
+Route::get('/about' ,function () {
     return view('page.about');
 });
 Route::get('/recipe','page\FoodController@index', function () {

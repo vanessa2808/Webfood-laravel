@@ -15,8 +15,8 @@ class CreateMainTable extends Migration
     {
         Schema::create('main', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('description');
+            $table->text('title');
+            $table->text('description');
             $table->string('image1');
             $table->string('image2');
 
