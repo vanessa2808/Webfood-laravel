@@ -19,16 +19,16 @@ Route::get('/home', 'page\FrontEndController@getHomePage' ,function () {
 });
 
 
-Route::get('/about' ,function () {
+Route::get('/about', 'page\FrontEndController@getAboutPage' ,function () {
     return view('page.about');
 });
-Route::get('/recipe','page\FoodController@index', function () {
+Route::get('/recipe','page\FrontEndController@getRecipePage', function () {
     return view('page.recipe');
 });
-Route::get('/blog', function () {
+Route::get('/blog','page\FrontEndController@getBlogPage', function () {
     return view('page.blog');
 });
-Route::get('/single_blog', function () {
+Route::get('/single_blog', 'page\FrontEndController@getSingleBlogPage', function () {
     return view('page.single_blog');
 });
 Route::get('/recipes_details', function () {

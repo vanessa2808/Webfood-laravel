@@ -16,15 +16,16 @@
     <!-- recepie_header_area  -->
     <div class="recepie_header_area">
         <div class="container">
+            @foreach($about as $about)
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="recepie_text text-center">
-                        <h3>Recipe videos that never <br>
-                            misses any portion</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <h3>{{$about->title}}</h3>
+                        <p>{{$about->description}}</p>
                     </div>
                 </div>
             </div>
+                @endforeach
         </div>
     </div>
     <!--/ recepie_header_area  -->
@@ -32,13 +33,12 @@
     <!-- recepie_videos   -->
     <div class="recepie_videoes_area">
         <div class="container">
+            @foreach($main as $main)
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="recepie_info">
-                        <h3>Recipe videos
-                            that never misses
-                            any portion</h3>
-                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.</p>
+                        <h3>{{$main->title}}</h3>
+                        <p>{{$main->description}}</p>
                         <div class="video_watch d-flex align-items-center">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=lr6AMBsjxrY"> <i class="ti-control-play"></i> </a>
                             <div class="watch_text" >
@@ -51,17 +51,18 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="videos_thumb">
                         <div class="big_img">
-                            <img src="page/img/video/big.png" alt="">
+                            <img src="{{asset($main->image3)}}" alt="">
                         </div>
                         <div class="small_thumb">
-                            <img src="page/img/video/small_1.png" alt="">
+                            <img src="{{asset($main->image1)}}" alt="">
                         </div>
                         <div class="small_thumb_2">
-                            <img src="page/img/video/2.png" alt="">
+                            <img src="{{asset($main->image2)}}" alt="">
                         </div>
                     </div>
                 </div>
             </div>
+                @endforeach
         </div>
     </div>
     <!--/ recepie_videos   -->
@@ -69,25 +70,24 @@
     <!-- download_app_area -->
     <div class="download_app_area">
         <div class="container">
+            @foreach($sidebar as $sb)
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="download_thumb">
                         <div class="big_img">
-                            <img src="page/img/video/big_1.png" alt="">
+                            <img src="{{asset($sb->image1)}}" alt="">
                         </div>
                         <div class="small_01">
-                            <img src="page/img/video/small_sm1.png" alt="">
+                            <img src="{{asset($sb->image2)}}" alt="">
                         </div>
                         <div class="small_02">
-                            <img src="page/img/video/sm2.png" alt="">
+                            <img src="{{asset($sb->image3)}}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
                     <div class="download_text">
-                        <h3>Download app to
-                            get recipes from
-                            Everywhere</h3>
+                        <h3>{{$sb->title}}</h3>
                         <div class="download_android_apple">
                             <a class="active" href="#">
                                 <div class="download_link d-flex">
@@ -111,6 +111,7 @@
                     </div>
                 </div>
             </div>
+                @endforeach
         </div>
     </div>
     <!--/ download_app_area -->

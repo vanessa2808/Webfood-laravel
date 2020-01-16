@@ -1,3 +1,5 @@
+@section('content')
+
     @extends('page.layouts.master2')
 
         <div class="bradcam_area bradcam_bg_1">
@@ -11,40 +13,53 @@
             </div>
         </div>
     </div>
-    <!-- /bradcam_area  -->
+    <div class="recepie_area plus_padding">
+        <div class="container">
+            <div class="row">
+                @foreach($food as $food)
 
-    <!-- recepie_area_start  -->
-    @section('content')
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single_recepie text-center">
+                            <div class="recepie_thumb">
+                                <img src="{{asset($food->image)}}" alt="">
+                            </div>
+                            <h3>{{$food->name}}</h3>
+                            <span>{{$food->chef}}</span>
+                            <p>Time Needs: {{$food->time}}</p>
+                            <a href="#" class="line_btn">View Full Recipe</a>
+                        </div>
+                    </div>
 
-    @extends('page.recipe_listFood');
-    <!-- /recepie_area_start  -->
+                @endforeach
 
-    <!-- latest_trand     -->
 
-    <!--/ latest_trand     -->
+
+
+            </div>
+        </div>
+    </div>
 
     <!-- download_app_area -->
     <div class="download_app_area plus_padding">
         <div class="container">
+            @foreach($sidebar as $sb)
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="download_thumb">
                         <div class="big_img">
-                            <img src="page/img/video/big_1.png" alt="">
+                            <img src="{{asset($sb->image1)}}" alt="">
                         </div>
                         <div class="small_01">
-                            <img src="page/img/video/small_sm1.png" alt="">
+                            <img src="{{asset($sb->image2)}}" alt="">
                         </div>
                         <div class="small_02">
-                            <img src="page/img/video/sm2.png" alt="">
+                            <img src="{{asset($sb->image3)}}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
                     <div class="download_text">
-                        <h3>Download app to
-                            get recipes from
-                            Everywhere</h3>
+                        <h3>{{$sb->title}}</h3>
                         <div class="download_android_apple">
                             <a class="active" href="#">
                                 <div class="download_link d-flex">
@@ -68,6 +83,7 @@
                     </div>
                 </div>
             </div>
+                @endforeach
         </div>
     </div>
     @endsection

@@ -1,7 +1,7 @@
 <div class="recepie_area plus_padding">
     <div class="container">
         <div class="row">
-            @foreach($listFood as $key => $food)
+            @foreach($food as $food)
 
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single_recepie text-center">

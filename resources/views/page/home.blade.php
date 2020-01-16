@@ -25,6 +25,7 @@
     <div class="recepie_area">
         <div class="container">
             <div class="row">
+
                 @foreach($food as $food)
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single_recepie text-center">
@@ -38,6 +39,7 @@
                     </div>
                 </div>
                     @endforeach
+
 
 
             </div>
@@ -224,13 +226,13 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="download_thumb">
                         <div class="big_img">
-                            <img src="{{asset($sb->image3)}}" alt="">
+                            <img src="{{asset($sb->image1)}}" alt="">
                         </div>
                         <div class="small_01">
                             <img src="{{asset($sb->image2)}}" alt="">
                         </div>
                         <div class="small_02">
-                            <img src="{{asset($sb->image1)}}" alt="">
+                            <img src="{{asset($sb->image3)}}" alt="">
                         </div>
                     </div>
                 </div>
