@@ -45,11 +45,7 @@ Route::get('/contact', function () {
 Route::get('/admin/comments/list_comments', 'CommentController@index')->name('');
 
 Auth::routes(['verify' => false, 'register' => false]);
-//Route::group(['namespace' => 'Auth'], function() {
-//
-//    Route::get('/register', ['as' => 'register', 'uses' => 'RegisterController@showRegister']);
-//    Route::post('/register', ['as' => 'register', 'uses' => 'RegisterController@create']);
-//});
+
 Route::group(['namespace' => 'Admin', 'middleware' => 'verified', 'middleware' => 'administrator'], function() {
     Route::get('/admin', 'HomeController@dashboard')->name('dashboard');
 

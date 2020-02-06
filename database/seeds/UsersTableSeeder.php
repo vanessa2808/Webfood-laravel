@@ -13,6 +13,8 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        DB::table('users')->truncate();
         DB::table('users')->insert([
             [
                 'role_id' => '0', // admin
@@ -29,7 +31,24 @@ class UsersTableSeeder extends Seeder
 
                 'created_at' => Carbon::now(),
 
+            ],
+            [
+                'role_id' => '1', // admin
+
+                'name'=> 'User',
+                'avatar' => 'default.png',
+                'gender' => 'female',
+                'dateofbirth' => '2019-10-12',
+                'email' => 'user@gmail.com',
+                'password' => bcrypt('12341234'),
+                'phone' => '1234123413',
+                'address' => 'VietNam',
+                'email_verified_at' => Carbon::now(),
+
+                'created_at' => Carbon::now(),
+
             ]
         ]);
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }
