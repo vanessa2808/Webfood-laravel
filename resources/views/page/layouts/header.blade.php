@@ -30,7 +30,12 @@
                                             <li><a href="/elements">elements</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="/contact">Contact</a></li>
+                                    <li><a href="#">Contact <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="/contact">Message</a></li>
+                                            <li><a href="/member">Members</a></li>
+                                        </ul>
+                                    </li>
 
 
 
