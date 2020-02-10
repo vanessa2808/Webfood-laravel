@@ -40,10 +40,10 @@ Route::get('/elements', function () {
 Route::get('/contact', function () {
     return view('page.contact');
 });
-Route::get('/member','page\MemberController@getAddMember', function () {
+Route::get('/member', function () {
     return view('page.member');
 });
-Route::post('/member','page\MemberController@postAddMember', function () {
+Route::post('/member', function () {
     return view('page.member');
 });
 
