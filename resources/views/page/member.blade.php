@@ -23,7 +23,7 @@
                     <h2 class="contact-title">Register</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="page/member" method="POST"  enctype="multipart/form-data">
+                    <form class="form-contact contact_form" action="/member" method="POST"  enctype="multipart/form-data">
                         <div class="row">
 
                             <div class="col-sm-6">

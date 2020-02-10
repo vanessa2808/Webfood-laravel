@@ -27,8 +27,8 @@ class Member extends Model
             {
                 $Hinh = str_random(4)."_".$name;
             }
-            $file->move("uploads/products", $Hinh);
-            $newMember ->avatar= "uploads/products/".$Hinh;
+            $file->move("uploads/members", $Hinh);
+            $newMember ->avatar= "uploads/members/".$Hinh;
         }
         $newMember->name= $request->name;
         $newMember->role_id = 1;

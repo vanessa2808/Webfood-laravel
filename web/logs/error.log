@@ -1266,3 +1266,41 @@
 [Sun Feb 09 07:27:59.066268 2020] [php7:notice] [pid 53] [client 172.18.0.1:33054] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/list_users
 [Sun Feb 09 07:33:02.055731 2020] [php7:notice] [pid 53] [client 172.18.0.1:33120] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/
 [Sun Feb 09 07:33:23.957380 2020] [php7:notice] [pid 37] [client 172.18.0.1:33142] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:47:43.797210 2020] [mpm_prefork:notice] [pid 34] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Feb 10 10:47:43.798285 2020] [core:notice] [pid 34] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 10 10:47:46.845329 2020] [php7:notice] [pid 37] [client 172.18.0.1:50484] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:47:48.311505 2020] [php7:notice] [pid 37] [client 172.18.0.1:50484] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:47:53.052273 2020] [php7:notice] [pid 39] [client 172.18.0.1:50494] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 10:47:54.051870 2020] [php7:notice] [pid 39] [client 172.18.0.1:50494] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 10:48:15.366823 2020] [php7:notice] [pid 38] [client 172.18.0.1:50538] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:48:54.166476 2020] [php7:notice] [pid 47] [client 172.18.0.1:50568] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:49:07.634612 2020] [php7:notice] [pid 38] [client 172.18.0.1:50576] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:57:21.627851 2020] [php7:notice] [pid 52] [client 172.18.0.1:50728] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 10:57:34.878495 2020] [php7:notice] [pid 51] [client 172.18.0.1:50738] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:57:45.231902 2020] [php7:notice] [pid 40] [client 172.18.0.1:50744] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 10:57:46.483831 2020] [php7:notice] [pid 39] [client 172.18.0.1:50762] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:57:46.484982 2020] [php7:notice] [pid 41] [client 172.18.0.1:50764] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:57:46.565554 2020] [php7:notice] [pid 46] [client 172.18.0.1:50766] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:57:52.481533 2020] [php7:notice] [pid 52] [client 172.18.0.1:50770] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 10:58:33.686258 2020] [php7:notice] [pid 37] [client 172.18.0.1:50810] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:58:39.655014 2020] [php7:notice] [pid 52] [client 172.18.0.1:50812] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65
+[Mon Feb 10 10:58:40.336667 2020] [php7:notice] [pid 38] [client 172.18.0.1:50828] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/list_users
+[Mon Feb 10 10:58:43.290642 2020] [php7:notice] [pid 53] [client 172.18.0.1:50830] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/list_users
+[Mon Feb 10 10:58:44.013993 2020] [php7:notice] [pid 53] [client 172.18.0.1:50830] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 10:59:11.639226 2020] [php7:notice] [pid 44] [client 172.18.0.1:50852] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 10:59:12.221017 2020] [php7:notice] [pid 44] [client 172.18.0.1:50852] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 10:59:12.435871 2020] [php7:notice] [pid 44] [client 172.18.0.1:50852] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 10:59:12.575567 2020] [php7:notice] [pid 37] [client 172.18.0.1:50850] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 11:11:46.578451 2020] [php7:notice] [pid 39] [client 172.18.0.1:50880] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 11:13:00.335201 2020] [php7:notice] [pid 37] [client 172.18.0.1:50942] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 11:13:14.237816 2020] [php7:notice] [pid 53] [client 172.18.0.1:50950] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 11:13:42.004786 2020] [php7:notice] [pid 40] [client 172.18.0.1:50972] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 11:13:50.085800 2020] [php7:notice] [pid 46] [client 172.18.0.1:50976] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 11:14:11.598821 2020] [php7:notice] [pid 53] [client 172.18.0.1:50992] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 11:14:23.513183 2020] [php7:notice] [pid 47] [client 172.18.0.1:51008] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 11:14:44.551524 2020] [php7:notice] [pid 44] [client 172.18.0.1:51022] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/login
+[Mon Feb 10 11:14:57.011110 2020] [php7:notice] [pid 38] [client 172.18.0.1:51034] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 11:15:18.310752 2020] [php7:notice] [pid 41] [client 172.18.0.1:51050] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 11:15:18.946727 2020] [php7:notice] [pid 41] [client 172.18.0.1:51050] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/admin/users/add_users
+[Mon Feb 10 11:15:23.973894 2020] [php7:notice] [pid 41] [client 172.18.0.1:51050] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
+[Mon Feb 10 11:15:28.655483 2020] [php7:notice] [pid 41] [client 172.18.0.1:51050] PHP Notice:  Undefined index: password in /var/www/html/config/database.php on line 65, referer: http://webfood.com/member
