@@ -17,7 +17,6 @@ class MemberController extends Controller
 
     public function __construct(Member $_member = null)
     {
-        $this->middleware('auth');
         $this->member= $_member;
 
     }
@@ -49,9 +48,9 @@ class MemberController extends Controller
     {
         $newMember = $this->member->addNewMember($request);
         if($newMember == self::RETURN_STR_ZERO) {
-            return redirect('/member');
+            return redirect('page/member');
         }
-        return redirect('/home');
+        return redirect('page/home');
     }
 
     /**

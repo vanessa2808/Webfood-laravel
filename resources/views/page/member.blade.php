@@ -24,6 +24,8 @@
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form" action="/member" method="POST"  enctype="multipart/form-data">
+                        @csrf
+
                         <div class="row">
 
                             <div class="col-sm-6">

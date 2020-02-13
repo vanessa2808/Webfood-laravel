@@ -46,7 +46,7 @@ class HeaderController extends Controller
         }
         return redirect('/admin/header/list_header')->with(([
             'message' => 'add successfully',
-            'class' => 'sucess'
+            'class' => 'success'
         ]));
     }
 
