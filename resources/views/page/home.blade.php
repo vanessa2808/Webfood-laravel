@@ -68,13 +68,13 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="videos_thumb">
                         <div class="big_img">
-                            <img src="{{asset($main->image3)}}" alt="">
-                        </div>
-                        <div class="small_thumb">
                             <img src="{{asset($main->image1)}}" alt="">
                         </div>
-                        <div class="small_thumb_2">
+                        <div class="small_thumb">
                             <img src="{{asset($main->image2)}}" alt="">
+                        </div>
+                        <div class="small_thumb_2">
+                            <img src="{{asset($main->image3)}}" alt="">
                         </div>
                     </div>
                     @endforeach
