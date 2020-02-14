@@ -1,96 +1,99 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <base href="{{asset('')}}">
-  <title>My admin| Log in</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="adminLogin/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="adminLogin/bower_components/font-awesome/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="adminLogin/bower_components/Ionicons/css/ionicons.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="adminLogin/dist/css/AdminLTE.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="adminLogin/plugins/iCheck/square/blue.css">
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
-</head>
+@section('content')
+    @extends('page.layouts.master2')
 
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="../../index2.html"><b>My</b>Admin</a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="login-box-body">
-      <p class="login-box-msg"></p>
-
-    <form action="{{ route('login') }}" method="POST">
-       @csrf
-      <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-        @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-      </div>
-
-
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="password" required autocomplete="current-password">
-        @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-      </div>
-      <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox" name="remember" id="remember"{{ old('remember') ? 'checked' : '' }}>
-            </label>
-            <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-          </div>
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Login to buy our food</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /.col -->
-        <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">{{ __('Login') }}</button>
+    </div>
+
+
+    <section class="contact-section section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Register</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="{{ route('login') }}" method="POST"  enctype="multipart/form-data">
+                        @csrf
+
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email"  placeholder="Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            </div>
+                            @error('email')
+                            <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                        </div>
+
+
+
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input type="password"  placeholder="Password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                            </div>
+                            @error('password')
+                            <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                            @enderror
+                        </div>
+
+
+
+                        <div class="form-group mt-3">
+
+                            <button type="submit" class="button button-contactForm btn_4 boxed-btn">Register</button>
+                        </div>
+
+                    </form>
+
+
+
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Da Nang, Viet Nam.</h3>
+                            <p>, CA 91770</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>0 376 381 262</h3>
+                            <p>Mon to Fri 9am to 6pm</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>yenrion9941@gmail.com</h3>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
 
         </div>
-        <!-- /.col -->
-      </div>
-    </form>
+    </section>
 
 
-
-
-
-
-<!-- jQuery 3 -->
-<script src="adminLogin/bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap 3.3.7 -->
-<script src="adminLogin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- iCheck -->
-<script src="adminLogin/plugins/iCheck/icheck.min.js"></script>
-      <script>
-          $(function () {
-              $('input').iCheck({
-                  checkboxClass: 'icheckbox_square-blue',
-                  radioClass: 'iradio_square-blue',
-                  increaseArea: '20%' /* optional */
-              });
-          });
-      </script>
-</body>
-</html>
