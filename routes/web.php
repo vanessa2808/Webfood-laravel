@@ -11,6 +11,8 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/','page\FrontEndController@getHomePage', function () {
     return view('welcome');
 });
@@ -37,13 +39,14 @@ Route::get('/recipes_details', function () {
 Route::get('/elements', function () {
     return view('page.elements');
 });
+
 Route::get('/contact', function () {
     return view('page.contact');
 });
-Route::get('/member','page\MemberController@getAddMember', function () {
+Route::get('/member','page\MemberController@get_addUsers', function () {
     return view('page.member');
 });
-Route::post('/member','page\MemberController@postAddMember', function () {
+Route::post('/member','page\MemberController@post_addUSers', function () {
     return view('page.member');
 });
 

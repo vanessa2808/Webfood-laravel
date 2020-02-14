@@ -6,6 +6,9 @@ use App\Http\Requests\MemberRequest;
 use App\Models\Member;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+
 
 class MemberController extends Controller
 {
@@ -67,5 +70,27 @@ class MemberController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    public function get_addUsers() {
+        return view('page.member');
+    }
+    public function post_addUSers(MemberRequest $request) {
+        $name = $request->name;
+        $role_id = 1;
+        $email = $request->email;
+        $phone = $request->phone;
+
+        $password =  Hash::make($request->password);
+        $created_at = date('Y-m-d h:i:s');
+        $avatar = 'default.png';
+        if ($request->hasfile('avatar')){
+            $file = $request->avatar;
+            $avatar = $file->getClientOriginalName();
+            $file->move('/uploads/members', $avatar);
+        }
+
+        DB::insert('INSERT INTO users (name,role_id,avatar, email,phone,password, created_at) values (?, ?, ?, ?, ?,?,?)', [$name,$role_id,$avatar, $email, $phone,$password, $created_at]);
+        return redirect('/home');
+
+    }
 
 }

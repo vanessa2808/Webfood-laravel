@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e84d909-45a6-4d83-8e2a-5f951d732ec0" name="Default Changelist" comment="" />
+    <list default="true" id="5e84d909-45a6-4d83-8e2a-5f951d732ec0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/page/MemberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/page/MemberController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminMain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminMain/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminMain/pages/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/Recipes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/contact_process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/recipes_details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/single-blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/layouts/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/layouts/header2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -108,6 +131,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -133,6 +163,13 @@
       <option name="presentableId" value="Default" />
       <updated>1575276249268</updated>
       <workItem from="1575276250369" duration="84000" />
+      <workItem from="1581641478266" duration="8000" />
+      <workItem from="1581643961091" duration="804000" />
+      <workItem from="1581645773453" duration="1350000" />
+      <workItem from="1581650886940" duration="1678000" />
+      <workItem from="1581652703060" duration="1592000" />
+      <workItem from="1581656824404" duration="1616000" />
+      <workItem from="1581658814392" duration="153000" />
     </task>
     <servers />
   </component>
@@ -144,7 +181,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
