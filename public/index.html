@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <style>
+        .top{
+            display: flex;
+            flex-direction: row;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <input type="file" onchange="previewFile()" style="float:left;">
+        <img src="" id="preview" height="500px" width="500px" alt="Image preview..." style="float:right">
+    </div>
+
+    <p id="url"> firebase storage path URL:</p>
+</body>
+<script>
+    var config = {
+        apiKey: "AIzaSyBkNSCK-HH7-N-YrOwtMbSK79l6jjfq1JY",//change api key
+        authDomain: "webfood-laravel.firebaseapp.com",
+        databaseURL: "https://webfood-laravel.firebaseio.com",
+        storageBucket: "gs://webfood-laravel.appspot.com",
+        messagingSenderId: "759059975341"
+    };
+    firebase.initializeApp(config);
+
+    var storageRef = firebase.storage().ref();
+
+
+    var imagesRef = storageRef.child('images');
+    function previewFile(){
+
+    var file =document.querySelector('input[type=file]').files[0];
+
+
+    var metadata = {
+    contentType: 'image/jpeg'
+    };
+
+
+    var uploadTask = storageRef.child('images/' + file.name).put(file, metadata);
+
+    uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
+    function(snapshot) {
+        var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        console.log('Upload is ' + progress + '% done');
+        switch (snapshot.state) {
+            case firebase.storage.TaskState.PAUSED:
+                console.log('Upload is paused');
+                break;
+            case firebase.storage.TaskState.RUNNING:
+                console.log('Upload is running');
+                break;
+        }
+        }, function(error) {
+            console.log('error while uploading')
+        }, function() {
+            var starsRef = storageRef.child('images/'+ file.name);
+            starsRef.getDownloadURL().then(function(url) {
+                document.querySelector('#preview').src=url;
+                var t=document.querySelector('p')
+                t.innerHTML ='firebase storage path URL: '+url
+            }).catch(function(error) {
+                console.log('error while downloading file');
+            });
+        });
+    }
+
+</script>
+
+</html>

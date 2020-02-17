@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "webfood-laravel-268210",
+  "private_key_id": "45c7f15a8fba3e86493e02774d9fcc6045d06251",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXBu7rpwNYHDPk\n9yrBt730acY6Cxhud9rWZALC+Mf1hCssgLIPaTaeXl2XLWFFwgNAsGCpZ9wYXZND\nUB8Ktdd3qjKRuArnqvIPCv1p6Jw5/GaLpN5cPWa1Srl8U234rWG3yKDp7vWLzcSb\npXhUhUz4tMofFPdIwDoiP+5qADKHxr+dazirF0L2RwMZYv5JRhizT5z+yE6kh+fJ\nA3DRmISBmvbJuyMq9I1dX27Pk0fKXJ8K2wLpfQueHlbenyE5cifs4H/NnkZmGeDz\nHju3RcOldUQziOLkcobKWOTPu3QRAIgg8ObTRS/YhEy5hMNcf286WuGPriq5cr0z\nAZZZ/X/pAgMBAAECggEAAvDPPCG5OGhdZ4rqCw9sS6uj401JFQlCF/XOGX/FhFgS\nPjaWrUqaeH+29boSPy9lhUdRSoKGqKdpLEM04pqUR4hxE8iD1xLLa1QGwrJ3oruP\nK+eGJI/zWVLynXv0ifxYHKvCZbp0QG/HU7XAGr+qU8gpZTGxFWa1tiUqiBjFWUKn\nOCS3rJxBqXCxOypUUm21UOJQvyM4N7ZNVto2deq01soYvQAhdWpWoYwSz2OUAFef\nOdBSN+qDtrCqpVso0BsKxY+v003hndlWETVdplJfvsHI3CoI6rV+PNnOw40Bqmm0\nXk7cR5OmGnR3Zkap67ZYHjbHqTHYUo30CHdFavMqVQKBgQDT3hjxHwMB0FZJq2oW\nj8PqQ+/NhnBoz35NScglzJdHWL/c1bcjA5cf11sIjBICaysvKnZwGL/quZaf0YqT\nP25DVcQPRFQvHm/G+RFSKmiKDpvvLIvkq6s7VJeHbzLd4yZpJ+5OhWA/3tjR00Xz\nX0+mBUqWjYXXj6hnZXBSWHjxhwKBgQC2fH+b1Q4asOU3Ye5UQnH7m2IDncHQGjER\nakmsrXT7HptG8taVv8u5z5wJ9xnQddCQoNO9ERD3miYx8kCcExMqDT40RsZlO/3x\nxn+F0JMbhFz/NIyGQltMKZ7f49fsypy+7/eoxmapF1LeTT2dlxEcSerNmS5FOakp\ngaiXVxgfDwKBgACLCTVVBwTyK8Z0kgkMxUvMcMjuF0utfH1mOwUdySV9rMA8LAQC\n9lg2jR0wfrtS2wF78mHHLnbDkwdF2j0WZIn3plEDs9OLGG5CJTE4upvf/bZXPuSP\nLBky1lCakF7RPj/2wj2hSeXgBF5FVGCTVfju+on4QueSjrP1JpyPbX/xAoGAERua\n2wEeUWJEGu0TatLP3Ma0aaJgiSHrd7Z/MbERRnmYFQ6vD1rrvn+4ITcJNIHXC7gI\nIbF35b6N1iDf7cHcChUzv7Li5pq5M/FoAyOKpwnBris/AVc3N+yu+E5j788O4tec\nYDY5aaDGJBEZtaxz7jL/0EaMD/FX6ow9QfLoUAECgYBFlMXOAiVAQpG30Enc6paq\niw3QrP7pmpeDhLqbpEe79h206zBTP6DUJSLTi16X1oTJXx94mJrdKijz+wKXLDAB\n5nNEm4M0X0QeQgvFcAlCkI65hjZyR7iro5a/2seDkVi1E/GD8MJ6C7Z7AP7EhAbZ\n34UrhS/cluYzh1Wud15raQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "webfood-laravel@webfood-laravel-268210.iam.gserviceaccount.com",
+  "client_id": "114210760527381443570",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/webfood-laravel%40webfood-laravel-268210.iam.gserviceaccount.com"
+}
