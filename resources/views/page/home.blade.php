@@ -35,7 +35,7 @@
                         <h3>{{$food->name}}</h3>
                         <span>{{$food->chef}}</span>
                         <p>Time Needs: {{$food->time}}</p>
-                        <a href="#" class="line_btn">View Full Recipe</a>
+                        <a href="/recipe_details/id={{$food->id}}" class="line_btn">View Full Recipe</a>
                     </div>
                 </div>
                     @endforeach

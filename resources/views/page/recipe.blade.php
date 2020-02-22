@@ -16,7 +16,7 @@
     <div class="recepie_area plus_padding">
         <div class="container">
             <div class="row">
-                @foreach($food as $food)
+                @foreach($food as $food )
 
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single_recepie text-center">
@@ -26,7 +26,7 @@
                             <h3>{{$food->name}}</h3>
                             <span>{{$food->chef}}</span>
                             <p>Time Needs: {{$food->time}}</p>
-                            <a href="#" class="line_btn">View Full Recipe</a>
+                            <a href="/recipe_details/id={{$food->id}}" class="line_btn">View Full Recipe</a>
                         </div>
                     </div>
 
