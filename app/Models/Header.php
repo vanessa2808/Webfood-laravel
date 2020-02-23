@@ -25,12 +25,12 @@ class Header extends Model
             $file = $request->file('image');
             $name = $file -> getClientOriginalName();
             $Hinh = str_random(4)."_".$name;
-            while(file_exists('upload/products'.$Hinh))
+            while(file_exists('uploads/products'.$Hinh))
             {
                 $Hinh = str_random(4)."_".$name;
             }
-            $file->move("upload/products", $Hinh);
-            $newHeader ->image= "upload/products/".$Hinh;
+            $file->move("uploads/products", $Hinh);
+            $newHeader ->image= "uploads/products/".$Hinh;
         }
         $newHeader->created_at = Carbon::now();
         if(! $newHeader->save()) {
@@ -51,12 +51,12 @@ class Header extends Model
             $file = $request->file('image');
             $name = $file -> getClientOriginalName();
             $Hinh = str_random(4)."_".$name;
-            while(file_exists('upload/products'.$Hinh))
+            while(file_exists('uploads/products'.$Hinh))
             {
                 $Hinh = str_random(4)."_".$name;
             }
-            $file->move("upload/products", $Hinh);
-            $idHeader ->image= "upload/products/".$Hinh;
+            $file->move("uploads/products", $Hinh);
+            $idHeader ->image= "uploads/products/".$Hinh;
         }        $idHeader->updated_at = Carbon::now();
         if(! $idHeader ->save()) {
             return self::RETURN_STR_ZERO;

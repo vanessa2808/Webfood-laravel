@@ -23,7 +23,7 @@ class About extends Model
             $file = $request->file('image');
             $name = $file -> getClientOriginalName();
             $Hinh = str_random(4)."_".$name;
-            while(file_exists('upload/products'.$Hinh))
+            while(file_exists('uploads/products'.$Hinh))
             {
                 $Hinh = str_random(4)."_".$name;
             }
@@ -50,7 +50,7 @@ class About extends Model
             $file = $request->file('image');
             $name = $file -> getClientOriginalName();
             $Hinh = str_random(4)."_".$name;
-            while(file_exists('upload/products'.$Hinh))
+            while(file_exists('uploads/products'.$Hinh))
             {
                 $Hinh = str_random(4)."_".$name;
             }

@@ -69,11 +69,11 @@ class Food extends Model
             $file = $request->file('image');
             $name = $file -> getClientOriginalName();
             $imagename = str_random(4)."_".$name;
-            while(file_exists('upload/food'.$imagename))
+            while(file_exists('uploads/food'.$imagename))
             {
                 $imagename = str_random(4)."_".$name;
             }
-            $file->move("upload/food", $imagename);
+            $file->move("uploads/food", $imagename);
             $idFood ->image= "uploads/food/".$imagename;
         }
         else
