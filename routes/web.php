@@ -49,6 +49,7 @@ Route::get('/contact', function () {
 Route::get('/checkout/{id}', function () {
     return view('page.checkout');
 })->middleware('auth');
+
 Route::get('/member','page\MemberController@get_addUsers', function () {
     return view('page.member');
 });
