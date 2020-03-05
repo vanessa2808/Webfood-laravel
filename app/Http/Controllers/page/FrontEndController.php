@@ -59,4 +59,24 @@ class FrontEndController extends Controller
         $main = Main::all();
         return view('page.single_blog',['header'=>$header, 'food'=>$food,'blog'=>$blog, 'sidebar'=>$sidebar,'main'=>$main]);
     }
+    public function getRecipeDetails() {
+        $header = Header::all();
+        $food = Food::all();
+        $blog = Blog::all();
+        $sidebar = Sidebar::all();
+        $main = Main::all();
+        return view('page.recipe_details',['header'=>$header, 'food'=>$food,'blog'=>$blog, 'sidebar'=>$sidebar,'main'=>$main]);
+
+    }
+    public function getFoodDetails($id) {
+        $food        = Food::find($id);
+
+        $food = Food::all();
+
+
+        return view('page.food_details',[ 'food'=>$food]);
+
+    }
+
+
 }

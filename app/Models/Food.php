@@ -15,6 +15,7 @@ class Food extends Model
     public function getAllFood() {
         return $this->all();
     }
+
     public function addNewFood($request){
         $newFood = new Food();
         $newFood->name = $request->name;

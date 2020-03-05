@@ -33,8 +33,11 @@ Route::get('/blog','page\FrontEndController@getBlogPage', function () {
 Route::get('/single_blog', 'page\FrontEndController@getSingleBlogPage', function () {
     return view('page.single_blog');
 });
-Route::get('/recipes_details', function () {
+Route::get('/recipes_details','page\FrontEndController@getRecipeDetails', function () {
     return view('page.recipe_details');
+});
+Route::get('/food_details/{id}','page\FrontEndController@getFoodDetails',function (){
+    return view('page.food_details');
 });
 Route::get('/elements', function () {
     return view('page.elements');
@@ -43,6 +46,9 @@ Route::get('/elements', function () {
 Route::get('/contact', function () {
     return view('page.contact');
 });
+Route::get('/checkout/{id}', function () {
+    return view('page.checkout');
+})->middleware('auth');
 Route::get('/member','page\MemberController@get_addUsers', function () {
     return view('page.member');
 });

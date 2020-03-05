@@ -54,42 +54,26 @@
         </div>
     </div>
     <!-- recepie_area_start  -->
-    <div class="recepie_area inc_padding">
+    <div class="recepie_area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_recepie text-center">
-                        <div class="recepie_thumb">
-                            <img src="page/img/recepie/recpie_1.png" alt="">
+
+                @foreach($food as $food)
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single_recepie text-center">
+                            <div class="recepie_thumb">
+                                <img src="{{asset($food->image)}}" alt="">
+                            </div>
+                            <h3>{{$food->name}}</h3>
+                            <span>{{$food->chef}}</span>
+                            <p>Time Needs: {{$food->time}}</p>
+                            <a href="/food_details/id={{$food->id}}" class="line_btn">View Full Recipe</a>
                         </div>
-                        <h3>Egg Manchurian</h3>
-                        <span>Appetizer</span>
-                        <p>Time Needs: 30 Mins</p>
-                        <a href="#" class="line_btn">View Full Recipe</a>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_recepie text-center">
-                        <div class="recepie_thumb">
-                            <img src="page/img/recepie/recpie_2.png" alt="">
-                        </div>
-                        <h3>Pure Vegetable Bowl</h3>
-                        <span>Appetizer</span>
-                        <p>Time Needs: 30 Mins</p>
-                        <a href="#" class="line_btn">View Full Recipe</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_recepie text-center">
-                        <div class="recepie_thumb">
-                            <img src="page/img/recepie/recpie_3.png" alt="">
-                        </div>
-                        <h3>Egg Masala Ramen</h3>
-                        <span>Appetizer</span>
-                        <p>Time Needs: 30 Mins</p>
-                        <a href="#" class="line_btn">View Full Recipe</a>
-                    </div>
-                </div>
+                @endforeach
+
+
+
             </div>
         </div>
     </div>
