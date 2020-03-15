@@ -7,7 +7,7 @@ use Carbon\Carbon;
 class Food extends Model
 {
     protected $table = 'food';
-    protected $fillable = ['name','chef','time','description','image','created_at','updated_at'];
+    protected $fillable = ['id','name','chef','time','description','image','created_at','updated_at'];
     protected const RETURN_NUM_ZERO = 0;
     protected const RETURN_NUM_ONE = 1;
     protected const RETURN_STR_ZERO = "0";

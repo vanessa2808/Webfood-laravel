@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e84d909-45a6-4d83-8e2a-5f951d732ec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/404error/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404error/fonts/fontawesome-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/page/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/page/FrontEndController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Food.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/food_details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/food_details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/recipe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/recipe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/recipe_details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/recipe_details.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +188,15 @@
       <workItem from="1583377644326" duration="483000" />
       <workItem from="1583459736923" duration="417000" />
       <workItem from="1583460760641" duration="715000" />
-      <workItem from="1583463000642" duration="1625000" />
+      <workItem from="1583463000642" duration="2180000" />
+      <workItem from="1583763228112" duration="299000" />
+      <workItem from="1583889056919" duration="6000" />
+      <workItem from="1584246270672" duration="479000" />
+      <workItem from="1584269482013" duration="1762000" />
+      <workItem from="1584271314264" duration="2017000" />
+      <workItem from="1584276118204" duration="1683000" />
+      <workItem from="1584277965797" duration="1586000" />
+      <workItem from="1584279791382" duration="26000" />
     </task>
     <servers />
   </component>
@@ -209,5 +215,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/page/FrontEndController.php</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

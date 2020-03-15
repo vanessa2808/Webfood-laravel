@@ -15,9 +15,6 @@
 
     <div class="recepie_details_area">
         <div class="container">
-
-            @foreach($food as $id => $food )
-
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="recepies_thumb">
@@ -43,15 +40,14 @@
 
                         </div>
                         <p></p>
-                        <p></p>
+                        
 
-                        </ul><a href="/checkout/id={{$id}}" class="btn btn-dark rounded-pill py-2 btn-block">Procceed to checkout</a>
+                        </ul><a href="/checkout/id={{$food->id}}" class="btn btn-dark rounded-pill py-2 btn-block">Procceed to checkout</a>
 
                     </div>
                 </div>
             </div>
 
-            @endforeach
 
 
         </div>

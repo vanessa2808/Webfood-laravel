@@ -69,11 +69,9 @@ class FrontEndController extends Controller
 
     }
     public function getFoodDetails($id) {
-        $food        = Food::find($id);
 
-        $food = Food::all();
-
-
+        //$food        = Food::where('id', 1)->get()->first();
+        $food = Food::find($id);
         return view('page.food_details',[ 'food'=>$food]);
 
     }
